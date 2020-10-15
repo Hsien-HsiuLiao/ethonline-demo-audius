@@ -25,6 +25,12 @@ const HttpApiExample = () => {
     fetchTrack()
   }, [])
 
+  useEffect(() => {
+    if (track) {
+      console.log(track)
+    }
+  }, [track])
+
   return track && (
     <div className="topTrack">
       <div className="artwork">

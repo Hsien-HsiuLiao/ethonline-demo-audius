@@ -1,0 +1,46 @@
+$ npx create-audius-app create-audius-app
+Need to install the following packages:
+create-audius-app@2.0.0
+Ok to proceed? (y) y
+
+Creating a new Audius app in /home/h/Projects/ethonline-demo-audius/create-audius-app.
+
+Copying files for example react-hono. This might take a moment.
+
+Installing packages. This might take a couple of minutes.
+
+
+added 919 packages, and audited 920 packages in 2m
+
+146 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (6 moderate, 19 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Success! Created create-audius-app at /home/h/Projects/ethonline-demo-audius/create-audius-app
+Inside that directory, you can run several commands:
+
+  npm run dev
+    Starts the development server.
+
+  npm run build
+    Builds the app for production.
+
+  npm run start
+    Runs the built app in production mode.
+
+  npm run deploy
+    Build and publish your app (default: Cloudflare).
+
+We suggest that you begin by typing:
+
+  cd create-audius-app
+  npm run dev
